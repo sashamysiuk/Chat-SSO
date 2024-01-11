@@ -15,16 +15,39 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ola.mysiukk.PetPal1",
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.20353727286-qas189rmt6un2a79th2l3uiet5241e67"
+            ]
+          }
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ola.mysiukk.PetPal1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
-  }
+    },
+    "scheme": "com.ola.mysiukk.PetPal1",
+    "extra": {
+      "eas": {
+        "projectId": "2a710bf1-8239-4340-bb69-d9282ef95340"
+      }
+    },
+    "googleSignIn": {
+      "behavior": "web",
+      "webClientId": "20353727286-t28lu04i456pbogu6sh6fidnmep6as5b.apps.googleusercontent.com"
+    },
+    "sdkVersion": "49.0.0"
+  },
+  "name": "chat"
 }
